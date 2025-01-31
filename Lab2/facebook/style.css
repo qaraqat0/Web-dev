@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 244, 247);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.34;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-left: 190px;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 32px;
+    margin-top: -80px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.phrase {
+    font-size: 28px;
+    font-weight: normal;
+    margin-left: 26px;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+}
+
+.right-section {
+    flex: 0 0 396px;
+}
+
+.auth-window {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 28px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-field {
+    height: 52px;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    height: 48px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-button:hover {
+    background-color: #166fe5;
+}
+
+.forgot-password {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.forgot-password a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #dadde1;
+    margin: 20px 0;
+}
+
+.create-account-button {
+    background-color: #42b72a;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.create-account-button:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    text-align: center;
+    font-size: 14px;
+    color: #1c1e21;
+}
+
+.create-page strong {
+    cursor: pointer;
+}
+
+.create-page strong:hover {
+    text-decoration: underline;
+}
+
+.site-footer {
+    background-color: white;
+    padding: 20px 40px;
+    color: #737373;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.language-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.language-selector a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.language-selector a:hover {
+    text-decoration: underline;
+}
+
+.language-selector a.active {
+    color: #737373;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid #dddfe2;
+    margin: 10px 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #737373;
+}
+
