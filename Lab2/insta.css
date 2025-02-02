@@ -1,0 +1,192 @@
+body{
+    
+    font-family: sans-serif;
+}
+#instagram-logo{
+    width: 175px;
+    height: 51px;
+    margin-top: 45px;
+
+}
+#phone{
+    position: absolute;
+    width: 380px;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+#box-1{
+    position: absolute;
+    border: 1px solid #474545ab;
+    width: 350px;
+    height: 410px;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-left: 810px;
+    margin-top: 70px;
+    text-align: center;
+}
+#login{
+    margin-top: 40px;
+}
+input{
+    width: 250px;
+    height: 35px;
+    font-size: 12.5px;
+    text-align: center;
+    color: white;
+    border: 1px solid #474545ab;
+    border-radius: 5px;
+
+}
+
+#email{
+    text-align: left;
+}
+#email::placeholder{
+    padding-left: 2px;
+}
+#password{
+    text-align: justify;
+    margin-top: 8px;
+}
+#password::placeholder{
+    padding-left: 2px;
+}
+#btn-1{
+    margin-top: 14px;
+    width: 260px;   
+    background-color: #007bfc;
+    color: white;
+    height: 33px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 0.1px solid gray; 
+    margin: 0 40px; 
+}
+#icon-1{
+    width: 24px;
+}
+#lnk-2{
+    text-decoration: none;
+    color: #0657ad;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}  
+#lnk-2:hover{
+    color: rgba(154, 151, 151, 0.375);
+}
+#divik{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#lnk-3{
+    text-decoration: none;
+    color: rgb(32, 5, 202);
+    font-size: 14px;
+    font-weight: 500;
+
+}
+#divik2{
+    margin-top: 10px;
+}
+#box-2{
+    position:absolute;
+    margin-left: 809.8px;
+    border: 1px solid #474545ab;
+    width: 350px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 490px;
+    width: 348px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lnk-4{
+    color: #007bfc;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+#span{
+    color:white;
+    font-size: 14px;
+}
+#divik3{
+    position: absolute;
+    width: 348px;
+    margin-left: 810px;
+    margin-top: 570px;
+    text-align: center;
+}
+.ics{
+    width: 130px;
+    height: 40px;
+    padding: 3px;
+}
+#ios{
+    margin-top: 10px;
+}
+footer {
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 200px;
+    
+  }
+  
+  #link ul {
+    display: flex;
+    gap: 10px; /* Промежуток между ссылками */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #link ul li a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  #link ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .meta {
+    margin-top: 10px;
+  }
+  
+  .meta select {
+    border: none;
+    color: gray;
+    font-size: 12px;
+  }
+  
+  .meta span {
+    margin-left: 10px;
+  }
+  
