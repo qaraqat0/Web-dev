@@ -161,7 +161,7 @@ footer {
   
   #link ul {
     display: flex;
-    gap: 10px; /* Промежуток между ссылками */
+    gap: 10px;
     list-style: none;
     padding: 0;
     margin: 0;
