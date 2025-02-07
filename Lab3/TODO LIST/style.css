@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+#addTask{
+    padding: 5px 10px 5px 10px;
+}
+#add button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    background-color: rgb(48, 48, 194);
+    border: none;
+    color: #FFFFFF;   
+}
+#tasks{
+    display: grid;
+    padding: 5px 10px 5px 10px;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid lightskyblue;
+}
+.task-text{
+    padding: 5px 10px 5px 10px;
+}
+.task-text.crossed{
+    text-decoration: line-through;
+    color: #757575;
+}
+.task-text.crossed + .delete-btn{
+    background-color: #FF0000;
+}
+.delete-btn{
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    background-color: #FF0000;
+    border: none;
+    color: #FFFFFF; 
+}
