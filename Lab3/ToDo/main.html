@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Your ToDo List:)</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="mainDiv">
+            <div class="topPlate">
+                <a class="logo">My ToDo</a>
+            </div>
+            
+            <div class="content">
+                <div class="header">
+                    <h1 class="phrase1">ToDo List</h1>
+                    <p class="phrase2">Write down your task and click "Add" button</p>
+                </div>
+
+                <div class="inputPlate">
+                    <input type="text" [(ngModel)]="newTask" (keyup)="onKeyPress($event)"class="input-field" placeholder="New Task" required>
+                    <button class="add" (click)="addTask()">Add</button>
+                </div>
+
+                <div class="task-list">
+                    <div *ngFor="let task of tasks; let i = index" class="task-item">
+                        <div class="task-content">
+                            <input type="checkbox" [checked]="task.completed"(change)="toggleTask(i)"class="task-checkbox">
+                            <span [class.completed]="task.completed">{{ task.text }}</span>
+                        </div>
+                        <button class="delete-btn" (click)="deleteTask(i)">🗑️</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="site-footer">
+                <hr class="footer-divider">
+                <div class="copyright">
+                    <p>© 2025 My ToDO List</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

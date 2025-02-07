@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Mosk';
+    src: url(/Lab3/ToDo/fonts/Mosk/Mosk\ Medium\ 500.ttf);
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.task-list {
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ff4444;
+}
+
+.delete-btn:hover {
+    color: #cc0000;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    border-radius: 3px;
+    border-top: 3px solid #ffffff;
+    margin: 10px 0;
+}
+
+.logo {
+    font-size: 52px;
+    font-family: 'Mosk';
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.phrase1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.phrase2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.inputPlate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.input-field {
+    margin-right: 10px;
+    height: 70px;
+    font-size: 17px;
+    border: 2px solid rgb(116, 0, 188);
+    border-radius: 6px;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #c95fc7;
+    box-shadow: 0 0 0 3px rgba(116, 0, 188, 0.184);
+}
+
+.add {
+    background-color: rgb(116, 0, 188);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    height: 74px;
+    width: 80px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.add:hover {
+    background-color: #c95fc7;
+}
+
+.topPlate {
+    vertical-align: center;
+    height: 8%;
+    background-color: rgb(116, 0, 188);
+    display: flex;
+    align-items: center;
+}
+
+.mainDiv {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer {
+    background-color: rgba(155, 0, 252, 0.092);
+    padding: 20px 40px;
+    color: black;
+    font-size: 12px;
+    margin-top: auto;
+}
