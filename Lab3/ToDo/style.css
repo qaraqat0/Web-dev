@@ -24,7 +24,7 @@
     align-items: center;
     padding: 15px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(116, 0, 188);
     border-radius: 6px;
 }
 
@@ -42,19 +42,24 @@
 
 .completed {
     text-decoration: line-through;
-    color: #888;
+    color: #b300ff;
 }
 
 .delete-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
+    background-color: rgb(116, 0, 188);
+    color: white;
     font-size: 20px;
-    color: #ff4444;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .delete-btn:hover {
-    color: #cc0000;
+    background-color: #c95fc7;
 }
 
 html, body {
@@ -142,7 +147,7 @@ hr {
 }
 
 .site-footer {
-    background-color: rgba(155, 0, 252, 0.092);
+    background-color: #8000ff1d;
     padding: 20px 40px;
     color: black;
     font-size: 12px;

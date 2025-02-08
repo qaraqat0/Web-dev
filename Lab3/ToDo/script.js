@@ -49,7 +49,7 @@ class TodoList {
                     <input type="checkbox" class="task-checkbox" ${task.completed ? 'checked' : ''}>
                     <span class="${task.completed ? 'completed' : ''}">${task.text}</span>
                 </div>
-                <button class="delete-btn">🗑️</button>
+                <button class="delete-btn">Del</button>
             `;
 
             const checkbox = taskElement.querySelector('.task-checkbox');

@@ -25,9 +25,9 @@
                     <div *ngFor="let task of tasks; let i = index" class="task-item">
                         <div class="task-content">
                             <input type="checkbox" [checked]="task.completed"(change)="toggleTask(i)"class="task-checkbox">
-                            <span [class.completed]="task.completed">{{ task.text }}</span>
+
                         </div>
-                        <button class="delete-btn" (click)="deleteTask(i)">🗑️</button>
+                        <button class="delete-btn" (click)="deleteTask(i)">Del</button>
                     </div>
                 </div>
             </div>
